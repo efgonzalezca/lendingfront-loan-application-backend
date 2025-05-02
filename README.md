@@ -14,6 +14,7 @@ It was built as part of a technical assessment.
         - [🧰Setup](#🧰setup)
         - [▶️Run Tests](#▶️run-tests)
 - [🌐Production](#🌐production)
+    - [⚙️Railway Configuration](#⚙️railway-configuration)
     - [🛠Steps to Deploy on Railway](#🛠steps-to-deploy-on-railway)
 - [🔧Built With](#🔧built-with)
 - [👥Authors](#👥authors)
@@ -90,7 +91,7 @@ To run the tests using `pytest`, use the following commands:
 
 This application is deployed using [Railway](https://railway.app), a cloud platform that simplifies backend deployments.
 
-## ⚙️ Railway Configuration
+## ⚙️Railway Configuration
 
 The project includes a `railway.json` configuration file that instructs Railway how to build and run the app in production. The relevant settings are:
 
