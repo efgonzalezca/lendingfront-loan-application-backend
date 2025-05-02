@@ -14,7 +14,9 @@ VALIDATION_MESSAGES = {
     'minLength': 'must be at least {value} characters',
     'maxLength': 'must be at most {value} characters',
     'pattern': 'has an invalid format',
-    'type': 'must be of type {value}'
+    'type': 'must be of type {value}',
+    "minimum": "must be greater than or equal to {value}",
+    "maximum": "must be less than or equal to {value}"
 }
 
 def format_validation_message(error):
