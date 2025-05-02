@@ -10,6 +10,9 @@ It was built as part of a technical assessment.
     - [🔍Prerequisites](#🔍prerequisites)
     - [📦Dependencies](#📦dependencies)
     - [💻Development](#💻development)
+    - [🧪Testing](#🧪testing)
+        - [🧰Setup](#🧰setup)
+        - [▶️Run Tests](#▶️run-tests)
 - [🌐Production](#🌐production)
     - [🛠Steps to Deploy on Railway](#🛠steps-to-deploy-on-railway)
 - [🔧Built With](#🔧built-with)
@@ -56,6 +59,32 @@ Describe how to install all development dependencies and run the application.
 5. Start the development server `python3 main.py`
 
 Remember to create the environment variables before starting the project following the example `.env.template` in the repository.
+
+## 🧪Testing
+
+This project includes unit tests written using [`pytest`](https://docs.pytest.org/)
+
+### 🧰Setup
+
+Follow these steps to prepare and run the test suite:
+
+1. Make sure you are in the root of the project directory.
+2. Activate your virtual environment:
+
+```bash
+    source venv/bin/activate  # On Linux/macOS
+    venv\Scripts\activate      # On Windows
+```
+
+### ▶️Run Tests
+
+To run the tests using `pytest`, use the following commands:
+
+- Run all tests in the project:
+
+```bash
+    pytest
+```
 
 # 🌐Production
 
